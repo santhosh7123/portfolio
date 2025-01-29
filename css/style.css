@@ -480,7 +480,15 @@ pre {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px; }
-
+.rowww {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; 
+  justify-content: center;}
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -911,6 +919,11 @@ pre {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%; }
+  .col-md-69 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 1 4 56%;
+    max-width: 95%; }
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -8812,8 +8825,6 @@ h1, h2, h3, h4, h5,
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
-  margin-right:15px;
-  margin-left:15px;
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   -webkit-border-radius: 5px;
